@@ -1,0 +1,33 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    border:  1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 153, 192);
+}
+input{
+    padding:  10px;
+    height: 40px;
+    width: 250px;
+    display: block;
+    margin: 5px 0;
+}
+form{
+    background-color: #fff;
+    padding: 15px 0 50px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px black;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
